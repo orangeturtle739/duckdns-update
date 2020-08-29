@@ -1,0 +1,12 @@
+[package]
+name = "duckdns-update"
+version = "0.1.0"
+authors = ["Jacob Glueck <swimgiraffe435@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+ureq = "1.4.0"
+clap = "2"
+toml = "0.5"
+serde = "1"
+serde_derive = "1"
