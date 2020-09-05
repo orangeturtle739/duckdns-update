@@ -13,7 +13,7 @@
           pname = "duckdns-update";
           version = "0.1.0";
           src = self;
-          cargoSha256 = "fB46IkoN+kKm0jwEp+nSw92t31pluLJ5ZPKOiRMB5wU=";
+          cargoSha256 = if system == "x86_64-linux" then "fB46IkoN+kKm0jwEp+nSw92t31pluLJ5ZPKOiRMB5wU=" else "rvGbFtg4cnR1mJaZ7teEKDXLtdK8R30/SPb4yaMKvN8=";
           builtInputs = commonBuildInputs;
         };
       in {
